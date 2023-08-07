@@ -1,9 +1,28 @@
-
-
 /*--------------Header-----------*/
-ul{
-    left: 0;
+.border h1{
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
 }
+
+.border{
+    width:100%;
+    height:65px;
+    z-index: 2;
+    background-color:#428f2c;
+    left:0;
+}
+
+.top{
+    position:absolute;
+    top: 0;
+}
+
+.bot{
+    height: 100px;
+}
+
 .menuItem {
     display: block;
     margin: 2rem 4rem;
@@ -18,7 +37,9 @@ ul{
 
 .hamburger {
     position: fixed;
-    z-index: 3;
+    width: 35px;
+    height: 35px;
+    z-index: 4;
     top: 1rem;
     left: 1rem;
     padding: 4px;
@@ -34,7 +55,7 @@ ul{
     top: 49px;
     left: 0;
     height: 85.5%;
-    z-index: 1;
+    z-index: 3;
     background: #aae09c;
     color: white;
     list-style: none;
@@ -47,39 +68,25 @@ ul{
     transform: translateX(0);
 }
 
-.border{
-    width:100%;
-    height:65px;
-    z-index: 0;
-    background-color:#428f2c;
-    position:absolute;
-    left:0;
-}
-.top{
-    top: 0;
-}
 
-.bot{
-    bottom: 0;
-}
 
-h1{
-    position: relative;
-    z-index: 1;
-}
-
-/*------------------Div Box----------------------*/
+/*------------------Content----------------------*/
 .box{
     position: fixed;
     left: 0;
     top: 4.8%;
-    height: 90.4%;
+    height: 100%;
     width: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-flow: column;
 }
 .container{
+    z-index: 0;
     position: relative;
     display: grid;
     place-items: center;
+    flex: 0 1 auto;
 }
 .slider {
     width: 100%;
@@ -132,17 +139,72 @@ h1{
     right: 0.0001%;
 }
 
-/*----------------Vision Mision tabs-----------*/
 table{
     width: 100%; 
     border-collapse: collapse;
-    bottom: 0;
     position: absolute;
     border: 1px solid black;
+    transform: translateY(-10%);
+    table-layout: fixed;
 }
 th{ 
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
     border: 3px solid black;
+    font-size: 30px;
 }
+
+.CustomShape {
+    font-size: 1.1em;
+    color: #fff;
+    background: #a53d38;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 320px;
+    margin: 0 7%;
+    transform: translateY(-20%);
+/*    visibility: hidden;*/
+    animation-fill-mode: forwards;  
+    display: flex;
+}
+
+.CustomShape:after {
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+    border-top-color: #a53d38;
+    border-bottom: 0;
+    bottom: -20px; 
+    left: 50%;
+    margin-left: -20px;
+    display: inline;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; visibility: hidden;}
+  100% { opacity: 1; visibility: visible;}
+}
+
+@-webkit-keyframes fadeOut {
+    0% { opacity: 1; visibility: visible;}
+  100% { opacity: 0; visibility: hidden;}
+}
+
+.vision{
+    flex 0 1 50px;
+} 
+
+.mission{
+    flex 1 1 50px;
+}
+
+.PH{
+    flex 1 0 50px;
+}
+
+.contact{
+    flex 3 0 50px;
+}
+

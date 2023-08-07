@@ -84,3 +84,12 @@ prevSlide.addEventListener("click", function () {
     time = setInterval(next, 4000);
 });
 
+//-------------------Table-----------------------//
+const vm = document.getElementById("vm");
+const cs = document.querySelector(".CustomShape")
+vm.addEventListener("mouseover", function(){
+    cs.style.animation = "fadeIn 2s";
+})
+vm.addEventListener("mouseout", function(){
+    cs.style.animation = "fadeOut 2s";
+})
