@@ -50,10 +50,8 @@ section.name is for class */
 	  font-family: 'Open Sans';
 	  font-size: 15px;
 	  width: 100%;
-	  border-collapse: collapse;
 	  border: 0px ;
-	  table-layout: fixed;
-	  word-wrap: break-word;	
+	  word-wrap: break-word;
   }
   
   th.CM{
