@@ -4,7 +4,7 @@ body {
     margin: 50px;
 }
 
-h1.BA{
+h1.DF{
     text-align: center;
     color:#00703C;
     font-size: 45px;
@@ -16,7 +16,13 @@ h1.BA{
     gap: 20px;
 }
 
-.boxes {
+a {
+   text-decoration: none;
+   color:#50af36;
+   font-style: bold;
+}
+
+.box {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
@@ -31,7 +37,7 @@ h2 {
     margin: 0;
     font-family: 'Ek Mukta', sans-serif;
     font-size: 30px;
-    color:#50af36;
+    color:#00703C;
     font-weight: bold;
 }
 

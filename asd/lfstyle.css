@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans';
+}
+
+h1.LF{
+    text-align: center;
+    color:#00703C;
+}
+h2 {
+    text-a;ign: left;
+    color:#00703C;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    flex: 1;
+    margin: 5px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    text-align: left;
+}
+
+p.head {
+   text-align: left;
+   font-weight: bold;
+}
