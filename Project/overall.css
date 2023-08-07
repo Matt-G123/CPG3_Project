@@ -2,148 +2,150 @@
 section.name is for class */
 
 ::selection {
-  background-color: #50af36;
-  color: #ffffff;
-}
-
-body{
-	margin: 3em;
-}
-
-h2 {
-	text-align: left;
-	font-family: 'Ek Mukta';
-	font-size: 28px;
-	color:#00703C;
-}
-
-h3 {
-	text-align: left;
-	font-family: 'Ek Mukta';
-	font-size: 24px;
-	color:#00703C;
-}
-
-h4 {
-	text-align: left;
-	font-family: 'Ek Mukta';
-	font-size: 18px;
-	color:#00703C;
-}
-
-p {
-	font-family: 'Open Sans';
-	font-size: 15px;
-	inline-size: auto;
-    overflow-wrap: break-word;
-}
-
-table.CM, th.CM, td.CM {
-	border: 1px;
-	border-style: solid;
-	border-color: #dddddd;
-	border-collapse:collapse;
-	overflow-wrap:keep-all;
-}
-
-table.CM {
-	font-family: 'Open Sans';
-	font-size: 15px;
-	width: 100%;
-	border-collapse: collapse;
-	border: 0px ;
-	table-layout: fixed;
-	word-wrap: break-word;	
-}
-
-th.CM{
-	font-weight:bold;
-}
-
-td.CM{
-	padding-top:3px;
-	padding-bottom:3px;
-	text-align:center;
-}
-
-table.SO, td.SO {
-	border: 1px;
-	border-style: solid;
-	border-color: #dddddd;
-	border-collapse: collapse;
-	overflow-wrap:keep-all;
-	padding-left:10px;
-	padding-top:3px;
-	padding-bottom:3px;
-}
-
-table.SO {
-	font-family: 'Open Sans';
-	font-size: 15px;
-	width: 100%;
-	border-collapse: collapse;
-	border: 0px ;
-	table-layout: fixed;
-	word-wrap: break-word;	
-}
-
-img.PEO{
-	width: 65%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table.PEO {
-	margin-top:50px;
-	font-family: 'Open Sans';
-	font-size: 15px;
-	width: 100%;
-	border-collapse: collapse;
-	border: 0px ;
-	table-layout: fixed;
-	word-wrap: break-word;	
-}
-
-table.PEO, td.PEO {
-	border: 1px;
-	border-style: solid;
-	border-color: #dddddd;
-	border-collapse: collapse;
-	overflow-wrap:keep-all;
-	vertical-align:center;
-	padding-left:10px
-}
-
-table.ELGA {
-	font-family: 'Open Sans';
-	font-size: 15px;
-	width: 100%;
-	border-collapse: collapse;
-	border: 0px ;
-	table-layout: fixed;
-	word-wrap: break-word;	
-}
-
-table.ELGA, th.ELGA, td.ELGA {
-	border: 1px;
-	border-style: solid;
-	border-color: #dddddd;
-	border-collapse: collapse;
-	overflow-wrap:keep-all;
-}
-
-th.ELGA {
-	text-align: center;
-	font-weight: bold;
-}
-
-td.ELGA {
-	width: 100%;
-	padding-top:10px
-}
-
-ul li{
-	list-style-type: solid circle;
-	color: black;
-}
+	background-color: #50af36;
+	color: #ffffff;
+  }
+  
+  body{
+	  margin: 3em;
+  }
+  
+  h2 {
+	  text-align: left;
+	  font-family: 'Ek Mukta';
+	  font-size: 28px;
+	  color:#00703C;
+  }
+  
+  h3 {
+	  text-align: left;
+	  font-family: 'Ek Mukta';
+	  font-size: 24px;
+	  color:#00703C;
+  }
+  
+  h4 {
+	  text-align: left;
+	  font-family: 'Ek Mukta';
+	  font-size: 18px;
+	  color:#00703C;
+  }
+  
+  p {
+	  font-family: 'Open Sans';
+	  font-size: 15px;
+	  inline-size: auto;
+	  overflow-wrap: break-word;
+  }
+  
+  table.CM, th.CM, td.CM {
+	  border: 1px;
+	  border-style: solid;
+	  border-color: #dddddd;
+	  border-collapse:collapse;
+	  overflow-wrap:keep-all;
+  }
+  
+  table.CM {
+	  font-family: 'Open Sans';
+	  font-size: 15px;
+	  width: 100%;
+	  border-collapse: collapse;
+	  border: 0px ;
+	  table-layout: fixed;
+	  word-wrap: break-word;	
+  }
+  
+  th.CM{
+	  font-weight:bold;
+	  font-size: 15px;
+	  text-decoration: none;
+  }
+  
+  td.CM{
+	  padding-top:3px;
+	  padding-bottom:3px;
+	  text-align:center;
+  }
+  
+  table.SO, td.SO {
+	  border: 1px;
+	  border-style: solid;
+	  border-color: #dddddd;
+	  border-collapse: collapse;
+	  overflow-wrap:keep-all;
+	  padding-left:10px;
+	  padding-top:3px;
+	  padding-bottom:3px;
+  }
+  
+  table.SO {
+	  font-family: 'Open Sans';
+	  font-size: 15px;
+	  width: 100%;
+	  border-collapse: collapse;
+	  border: 0px ;
+	  table-layout: fixed;
+	  word-wrap: break-word;	
+  }
+  
+  img.PEO{
+	  width: 65%;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  
+  table.PEO {
+	  margin-top:50px;
+	  font-family: 'Open Sans';
+	  font-size: 15px;
+	  width: 100%;
+	  border-collapse: collapse;
+	  border: 0px ;
+	  table-layout: fixed;
+	  word-wrap: break-word;	
+  }
+  
+  table.PEO, td.PEO {
+	  border: 1px;
+	  border-style: solid;
+	  border-color: #dddddd;
+	  border-collapse: collapse;
+	  overflow-wrap:keep-all;
+	  vertical-align:center;
+	  padding-left:10px
+  }
+  
+  table.ELGA {
+	  font-family: 'Open Sans';
+	  font-size: 15px;
+	  width: 100%;
+	  border-collapse: collapse;
+	  border: 0px ;
+	  table-layout: fixed;
+	  word-wrap: break-word;	
+  }
+  
+  table.ELGA, th.ELGA, td.ELGA {
+	  border: 1px;
+	  border-style: solid;
+	  border-color: #dddddd;
+	  border-collapse: collapse;
+	  overflow-wrap:keep-all;
+  }
+  
+  th.ELGA {
+	  text-align: center;
+	  font-weight: bold;
+  }
+  
+  td.ELGA {
+	  width: 100%;
+	  padding-top:10px
+  }
+  
+  ul li{
+	  list-style-type: solid circle;
+	  color: black;
+  }
