@@ -50,6 +50,13 @@ section.name is for class */
 	  overflow-wrap: break-word;
   }
 
+  img.CPD{
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
   table.TA, td.TA, th.TA {
 	border: 1px;
 	border-style: solid;
@@ -75,6 +82,40 @@ th.TA {
 	font-weight:bold;
 	font-size: 15px;
 	text-decoration: none;	
+}
+
+table.CPD, td.CPD{
+	border: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	border-collapse: collapse;
+	overflow-wrap:keep-all;
+	padding-left:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+table.CPD {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	width: 100%;
+	border-collapse: collapse;
+	border: 0px ;
+	table-layout: fixed;
+	word-wrap: break-word;	
+}
+  
+th.CPD {
+	font-weight:bold;
+	font-size: 15px;
+	text-decoration: none;	
+	font-weight: bold;
+	background-color: #e9ffe3;
+}
+
+td.CPD {
+	text-decoration: none;	
+	text-align:center;
 }
 
 	table.GRAD, td.GRAD {
