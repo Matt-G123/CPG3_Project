@@ -3,7 +3,8 @@
     z-index: 1;
     text-align: center;
     margin: 0 auto;
-    position: relative;
+    font-family: 'Ek Mukta';
+    font-size: 35px;
 }
 
 .border{
@@ -14,9 +15,9 @@
 }
 
 .border img{
-    height: 63px;
-    position: absolute;
-    margin: -30px 0px 0px -73px
+    height: 60px;
+    position:fixed;
+    margin: 0px 0px 0px -73px
 }
 
 .top{
@@ -37,6 +38,7 @@
     color: black;
     text-decoration: underline;
     text-align: left;
+    font-family: 'Ek Mukta';
 }
 .menuItem:hover {
     font-weight: bold
@@ -157,7 +159,8 @@
 .hometable th{ 
     text-decoration: underline;
     border: 3px solid black;
-    font-size: 30px;
+    font-size: 21px;
+    font-family: 'Ek Mukta';
 }
 
 .CustomShape {
@@ -200,6 +203,8 @@
     max-width: 22.5%;
     bottom: 60px;
     visibility: hidden;
+    font-family: 'Ek Mukta';
+    font-size: 16px;
 } 
 
 .mission{
@@ -207,6 +212,8 @@
     max-width: 23%;
     bottom: 60px;
     visibility: hidden;
+    font-family: 'Ek Mukta';
+    font-size: 16px;
 }
 
 .PH{
@@ -214,6 +221,8 @@
     max-width: 23%;
     bottom: 60px;
     visibility: hidden;
+    font-family: 'Ek Mukta';
+    font-size: 16px;
 }
 
 .contact{
@@ -221,5 +230,11 @@
     max-width: 50%;
     bottom: 60px;
     visibility: hidden;
+    font-family: 'Ek Mukta';
+    font-size: 16px;
 }
 
+::selection {
+	background-color: #50af36;
+	color: #ffffff;
+  }
