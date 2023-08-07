@@ -85,11 +85,40 @@ prevSlide.addEventListener("click", function () {
 });
 
 //-------------------Table-----------------------//
-const vm = document.getElementById("vm");
-const cs = document.querySelector(".CustomShape")
-vm.addEventListener("mouseover", function(){
-    cs.style.animation = "fadeIn 2s";
+const v = document.getElementById("vision");
+const m = document.getElementById("mission");
+const ph = document.getElementById("ph");
+const contact = document.getElementById("contact");
+
+const csv = document.querySelector(".vision");
+const csm = document.querySelector(".mission");
+const csph = document.querySelector(".PH");
+const cscontact = document.querySelector(".contact");
+
+v.addEventListener("mouseover", function(){
+    csv.style.animation = "fadeIn 2s";
 })
-vm.addEventListener("mouseout", function(){
-    cs.style.animation = "fadeOut 2s";
+v.addEventListener("mouseout", function(){
+    csv.style.animation = "fadeOut 2s";
+})
+
+m.addEventListener("mouseover", function(){
+    csm.style.animation = "fadeIn 2s";
+})
+m.addEventListener("mouseout", function(){
+    csm.style.animation = "fadeOut 2s";
+})
+
+ph.addEventListener("mouseover", function(){
+    csph.style.animation = "fadeIn 2s";
+})
+ph.addEventListener("mouseout", function(){
+    csph.style.animation = "fadeOut 2s";
+})
+
+contact.addEventListener("mouseover", function(){
+    cscontact.style.animation = "fadeIn 2s";
+})
+contact.addEventListener("mouseout", function(){
+    cscontact.style.animation = "fadeOut 2s";
 })
