@@ -22,7 +22,7 @@
 
 .top{
     height:65px;
-    position:absolute;
+    position:fixed;
     top: 0;
 }
 
