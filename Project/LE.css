@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans';
+    background-color: #f0f0f0;
+    margin: 50px;
+}
+
+h1.LE{
+    text-align: center;
+    color:#00703C;
+    font-size: 45px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:#00703C;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    width: 1000px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box on the page */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+   text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+

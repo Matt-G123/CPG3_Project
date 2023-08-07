@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans';
+    margin: 50px;
+}
+
+h1.EGS{
+    text-align: center;
+    color:#00703C;
+    font-size: 45px;
+}
+h2 {
+    text-align: center;
+    color:#00703C;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    flex: 1;
+    margin: 5px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
